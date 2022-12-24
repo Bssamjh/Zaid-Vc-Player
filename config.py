@@ -13,7 +13,7 @@ admins = {}
 
 SESSION_NAME = getenv("SESSION_NAME")
 
-if str(getenv("STRING_SESSION2")).strip() == "":
+if str(getenv("STRING_SESSION2")).strip() == "BABiMZkAk82dAm2xcffNjBF9lf7SrebT6XW97UzHWRqmx8x3uu_c5msyLHqcBD7aTZrJ7GLTr_MSvsyEON8gCeabUbLNZyNp8Q0uBW69tcubwiOryLNRdCXnwR2AVew9yymZf6PdlOTpZm-zCTF6YsfVTzWuSuhTRLCUbBeywZfK2vmDhgVYQsByMxJ_AsDH6fQd5oM7X1P150hdIRyZ2j0MCuwHqDoFnxBgZqYb0Jej0lBprqMth3TIsFquYhHcVh2IyTaxWMA5f7OIX5l8y6Qo_Er1tyVFNIhtCes1WLOnF9sAKpTDKneyBVKro4kBUimq2EoBalJnro_q6JcJZWlPkrsZSAAAAAFOcPpqAA":
     SESSION2 = str(None)
 else:
     SESSION2 = str(getenv("STRING_SESSION2"))
@@ -33,20 +33,20 @@ if str(getenv("STRING_SESSION5")).strip() == "":
 else:
     SESSION5 = str(getenv("STRING_SESSION5"))
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-BOT_NAME = getenv("BOT_NAME", "Umk")
+BOT_TOKEN = getenv("BOT_TOKEN", "5917639432:AAHy9PssF3SvmkYeSQYg1yszMsLWkBt6qwA")
+BOT_NAME = getenv("BOT_NAME", "eminemnmoix_bot")
 
 API_ID = int(getenv("API_ID", "8186557"))
 API_HASH = getenv("API_HASH", "efd77b34c69c164ce158037ff5a0d117")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Cloner:Cloner@cluster0.cgc6t.mongodb.net/?retryWrites=true&w=majority")
-OWNER_NAME = getenv("OWNER_NAME", "Zaid")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Timesisnotwaiting")
+OWNER_NAME = getenv("OWNER_NAME", "𝐁sシ︎sαꪑ 𝐌вāꪶяĸ𝔦")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Bssam_fzr4")
 ALIVE_NAME = getenv("ALIVE_NAME", "Zaid")
-BOT_USERNAME = getenv("BOT_USERNAME", "Zaid2_Robot")
-OWNER_ID = getenv("OWNER_ID", "1669178360")
+BOT_USERNAME = getenv("BOT_USERNAME", "eminemnmoix_bot")
+OWNER_ID = getenv("OWNER_ID", "5610994282")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Zaid2_Assistant")
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "TheSupportChat")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "TheUpdatesChannel")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "taikncdd")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "yutyopm")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("UPDATES_CHANNEL", "HEROKU_API_KEY")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1669178360").split()))
